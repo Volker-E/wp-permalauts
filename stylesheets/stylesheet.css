@@ -1,3 +1,7 @@
+html, body {
+  font-size: 16px;
+}
+
 * {
   -webkit-box-sizing:border-box;
   -moz-box-sizing:border-box;
@@ -9,8 +13,9 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-html, body {
-  font-size: 16px;
+html {
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
 }
 
 body {
@@ -68,6 +73,7 @@ dl dd a::before {
   font-size: 80%;
   margin-right: 0.5em;
   display: inline-block;
+
   -o-transform:      rotate(-23deg);
   -moz-transform:    rotate(-23deg);
   -webkit-transform: rotate(-23deg);
@@ -97,6 +103,7 @@ header {
   margin: 1em 0 2em 0;
   min-width: 772px;
   border: 1px solid #d9d7d5;
+
   -webkit-box-shadow: 0 0 12px #d3d3d3;
   -moz-box-shadow:    0 0 12px #d3d3d3;
   box-shadow:         0 0 12px #d3d3d3;
@@ -110,6 +117,7 @@ header::after {
   left: -16px;
   background: url(../images/wordpress-logo-64.png);
   content: "";
+
   -o-transform:      rotate(-23deg);
   -moz-transform:    rotate(-23deg);
   -webkit-transform: rotate(-23deg);
@@ -131,14 +139,23 @@ header h2 {
 }
 
 header .banner {
-  padding: 155px 0 0 30px;
+  padding: 150px 0 0 30px;
   height: 250px;
-  background: url(../images/banner-772x250.png) no-repeat;
 
   -webkit-box-shadow: inset 0 0 50px 4px rgba( 0, 0, 0, 0.2 ), inset 0 -1px 0 rgba( 0, 0, 0, 0.1 );
   -moz-box-shadow:    inset 0 0 50px 4px rgba( 0, 0, 0, 0.2 ), inset 0 -1px 0 rgba( 0, 0, 0, 0.1 );
   box-shadow:         inset 0 0 50px 4px rgba( 0, 0, 0, 0.2 ), inset 0 -1px 0 rgba( 0, 0, 0, 0.1 );
 }
+header .banner::before {
+   position: absolute;
+   top: 0; bottom: 0;
+   left: 0; right: 0;
+   z-index: -1;
+   background: url(../images/banner-772x250.png) no-repeat;
+   content:"";
+   opacity:0.333;
+}
+
 header .meta {
   padding: 0 30px;
   background: #eee;
