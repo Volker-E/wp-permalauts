@@ -8,7 +8,7 @@ navid: settings
 
 Unter »Einstellungen« / »Permalauts« kannst du auswählen, was tatsächlich umgewandelt werden soll.
 
-Du kannst Permalauts für Artikel und Seiten aktiveren und deaktivieren, sowie auswählen ob und welche Art von Taxonomien du umwandeln lassen möchtest.
+Du kannst Permalauts für Artikel und Seiten aktivieren und deaktivieren, sowie auswählen ob und welche Art von Taxonomien du umwandeln lassen möchtest.
 
 Die Standardeinstellung ist, dass alle Beiträge, Seiten, Kategorien und sonstigen Taxonomien (also auch Tags/Schlagwörter) mit Permalauts umgewandelt werden sollen.
 
