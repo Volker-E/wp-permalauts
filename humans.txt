@@ -1,0 +1,24 @@
+/* TEAM */
+
+    Maintainer:     Christoph Grabo
+    Contact:        chris [at] dinarrr.com
+    Blog:           http://codecraft.io
+    Github:         https://github.com/asaaki
+    Twitter:        @asaaki
+    Location:       Berlin, Germany
+
+    Contributor:    Christian Föllmann
+    Site:           http://www.foe-services.de
+    Github:         https://github.com/cfoellmann
+    Twitter:        @cfoellmann
+    Location:       Castrop-Rauxel, Germany
+
+/* SITE */
+
+    Language:       German
+    Doctype:        HTML5
+    Standards:      HTML5, CSS3
+    Technologies:   hands and brains, coffee
+    Components:     GitHub Pages "Automatic Page Generator" (initial setup and template)
+    Software:       GitHub, GitHub Pages (jekyll based hosting)
+    IDE:            Sublime Text 2, vim, git, zsh
