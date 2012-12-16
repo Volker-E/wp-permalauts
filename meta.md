@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Meta | WP Permalauts
+navid: meta
 ---
 
 # Meta

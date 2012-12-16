@@ -12,7 +12,7 @@
     <link rel="author" href="/humans.txt" />
   </head>
 
-  <body>
+  <body id="{{ page.navid | 'unknown'}}">
     <div id="container">
 
         <header>
@@ -21,25 +21,23 @@
           </a>
           <div class="meta">
             <h2>Deutsche Umlaute in Permalinks von WordPress</h2>
-            <p>
-              <small>
-                Umwandeln von deutschen Umlauten in URLs für Artikel, Seiten, Kategorien und Schlagwörter.
-                <br>
-                So wird aus dem Titel »Stra<b>ß</b>en, Fl<b>ü</b>sse, B<b>ä</b>che und <b>Ö</b>l«
-                der Permalink <code>/stra<b>ss</b>en-fl<b>ue</b>sse-b<b>ae</b>che-und-<b>oe</b>l</code>.
-              </small>
-            </p>
-            <!-- TODO: link to documentation
-            <p class="tright">
-              <strong><a href="https://github.com/kaffee-mit-milch/wp-permalauts/blob/master/README.md">README …</a></strong>
-            </p>
-            -->
-            <p class="tright"><strong>
-                <a href="/">Beschreibung</a>
-              | <a href="/installation.html">Installation</a>
-              | <a href="/einstellungen.html">Einstellungen</a>
-              | <a href="/meta.html">Meta</a>
-            </strong></p>
+
+            <p><small>
+              Umwandeln von deutschen Umlauten in URLs für Artikel, Seiten, Kategorien und Schlagwörter.
+              <br>
+              So wird aus dem Titel »Stra<b>ß</b>en, Fl<b>ü</b>sse, B<b>ä</b>che und <b>Ö</b>l«
+              der Permalink <code>/stra<b>ss</b>en-fl<b>ue</b>sse-b<b>ae</b>che-und-<b>oe</b>l</code>.
+            </small></p>
+
+            <nav>
+              <ul>
+                <li><a id="homenav" href="/">Beschreibung</a></li>
+                <li><a id="instnav" href="/installation.html">Installation</a></li>
+                <li><a id="settnav" href="/einstellungen.html">Einstellungen</a></li>
+                <li><a id="metanav" href="/meta.html">Meta</a></li>
+              </ul>
+            </nav>
+
           </div>
         </header>
 

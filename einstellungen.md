@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Einstellungen | WP Permalauts
+navid: settings
 ---
 
 # Einstellungen

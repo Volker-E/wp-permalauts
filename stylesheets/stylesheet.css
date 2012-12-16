@@ -162,11 +162,32 @@ header .banner::before {
 header .meta {
   padding: 1px 30px;
   background: #eee;
-  border-top: 1px solid #fcfcfc;
+  border-top: 1px solid #eee;
   text-shadow: 0 1px 1px #fff;
   -moz-box-shadow:    inset 0 0 42px 0 rgba( 100, 100, 100, 0.2 );
   -webkit-box-shadow: inset 0 0 42px 0 rgba( 100, 100, 100, 0.2 );
   box-shadow:         inset 0 0 42px 0 rgba( 100, 100, 100, 0.2 );
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 1em 0;
+  border: 0;
+  font-weight: bold;
+}
+header nav ul li {
+  display: inline-block;
+}
+header nav ul li + li::before {
+  content: " | ";
+}
+
+body#home a#homenav,
+body#installation a#instnav,
+body#settings a#settnav,
+body#meta a#metanav {
+  color: #061;
 }
 
 footer {

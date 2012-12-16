@@ -2,6 +2,7 @@
 layout: default
 title: WP Permalauts
 tagline: Deutsche Umlaute in Permalinks von WordPress
+navid: home
 ---
 
 # Beschreibung

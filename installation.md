@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Installation | WP Permalauts
+navid: installation
 ---
 
 # Installation
