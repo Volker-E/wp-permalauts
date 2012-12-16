@@ -113,10 +113,14 @@ header::after {
   position: absolute;
   width: 64px;
   height: 64px;
-  top: -16px;
+  top: -12px;
   left: -16px;
-  background: url(../images/wordpress-logo-64.png);
+  background: url(../images/wordpress-logo-64.png) no-repeat;
   content: "";
+
+  border-radius: 32px;
+  box-shadow: inset 0 0 3px 3px #000, 0 0 32px #555;
+  opacity: 0.42;
 
   -o-transform:      rotate(-23deg);
   -moz-transform:    rotate(-23deg);
@@ -147,13 +151,13 @@ header .banner {
   box-shadow:         inset 0 0 50px 4px rgba( 0, 0, 0, 0.2 ), inset 0 -1px 0 rgba( 0, 0, 0, 0.1 );
 }
 header .banner::before {
-   position: absolute;
-   top: 0; bottom: 0;
-   left: 0; right: 0;
-   z-index: -1;
-   background: url(../images/banner-772x250.png) no-repeat;
-   content:"";
-   opacity:0.333;
+  position: absolute;
+  top: 0; bottom: 0;
+  left: 0; right: 0;
+  z-index: -1;
+  background: url(../images/banner-772x250.png) no-repeat;
+  content:"";
+  opacity:0.333;
 }
 
 header .meta {
