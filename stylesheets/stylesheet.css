@@ -186,6 +186,7 @@ header nav ul li + li::before {
 body#home a#homenav,
 body#installation a#instnav,
 body#settings a#settnav,
+body#faq a#faqnav,
 body#changelog a#chlgnav,
 body#meta a#metanav {
   color: #061;

@@ -18,3 +18,7 @@ Mit installiertem und aktivem **Permalauts** folgt dann: <br>`ä = ae, ö = oe, 
 Dies ist wesentlich einfacher zu lesen und zu merken (sprechende URLs können so leichter weitergegeben werden — auch mündlich, die Fehlerquote ist hier im Allgemeinen niedriger).
 
 *Dieses Plugin ist zugleich die Erneuerung und Fortführung des leider nicht mehr gepflegten o42-clean-umlauts ([http://otaku42.de/2005/06/30/plugin-o42-clean-umlauts/](http://otaku42.de/2005/06/30/plugin-o42-clean-umlauts/)).*
+
+*****
+
+<small>Wordpress-Plugin-Repository: [wordpress.org/extend/wp-permalauts](http://wordpress.org/extend/plugins/wp-permalauts)</small>
