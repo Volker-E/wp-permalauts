@@ -22,5 +22,5 @@ Dies ist wesentlich einfacher zu lesen und zu merken (sprechende URLs können so
 *****
 
 <small>
-Wordpress-Plugin-Repository: [wordpress.org/extend/wp-permalauts](http://wordpress.org/extend/plugins/wp-permalauts)
+Wordpress-Plugin-Repository: <a href="http://wordpress.org/extend/plugins/wp-permalauts/">wordpress.org/extend/wp-permalauts</a>
 </small>
