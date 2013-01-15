@@ -12,5 +12,5 @@ Vielleicht gibt es einen Grund dafür?
 
 Gerne freuen wir uns über Feedback!
 
-Schreibe einfach an: `**kmm** (at) **dinarrr** (punk) **com**`
+Schreibe einfach an: `kmm (at) dinarrr (punk) com`
 <small>(at) und (punkt) bitte ersetzen, Leerzeichen dazwischen entfernen</small>
