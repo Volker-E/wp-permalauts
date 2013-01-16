@@ -9,16 +9,13 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <script>
-      // read: http://mathiasbynens.be/notes/async-analytics-snippet
-      var _gaq=[['_setAccount', 'UA-37688260-1'],['_trackPageview'],['_gat._anonymizeIp'],['_trackPageLoadTime']];(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;g.src='//www.google-analytics.com/ga.js';s.parentNode.insertBefore(g,s)}(document,'script'))
-      // flattr loader
-      (function(d,t){var e=d.createElement(t),s=d.getElementsByTagName(t)[0];e.async=1;e.src='//api.flattr.com/js/0.6/load.js?mode=auto';s.parentNode.insertBefore(e,s)}(document,'script'))
-    </script>
+
     <link rel="author" href="/humans.txt" />
+    <link rel="bitcoin" type="x-bitcoin/address" href="bitcoin:1FWFiXPTuNwbBdR7jfymq7d2Mk3boTZ8VT&message=Spende%20f%C3%BCr%20WP%20Permalauts" />
   </head>
 
   <body id="{{ page.navid | 'unknown' }}">
+    <div id="fb-root"></div>
     <div id="container">
 
         <header>
@@ -53,15 +50,58 @@
           {{ content }}
         </section>
 
+        <section id="actions">
+          <div class="button paypal">
+            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KTWUS3QQ9TQH8"><img src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donate_SM.gif" style="height:20px"></a>
+          </div>
+
+          <div class="button flattr">
+            <a href="http://flattr.com/thing/1101630/WP-Permalauts" target="_blank">
+<img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>
+          </div>
+
+          <div class="button spacer">
+          </div>
+
+          <div class="button facebook">
+            <div class="fb-like" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div>
+          </div>
+
+          <div class="button twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-via="permalauts" data-lang="de" data-hashtags="permalauts">Twittern</a>
+          </div>
+
+          <div class="button googleplus">
+            <div class="g-plusone" data-size="medium"></div>
+          </div>
+        </section>
+
         <footer>
           <small>
             <strong>WP Permalauts</strong>
             wird betreut und entwickelt durch
             <a href="https://github.com/kaffee-mit-milch">kaffee mit milch</a>/<a href="https://github.com/asaaki" title="asaaki">asaaki</a>.
+            <br>
+
+            <span class="bitcoin-address">
+              Ƀ: <a class="hash" href="bitcoin:1FWFiXPTuNwbBdR7jfymq7d2Mk3boTZ8VT&message=Spende%20f%C3%BCr%20WP%20Permalauts">1Asaaki1CtV8zAUMwrnPviM7oLFmWUQ3cQ</a>
+            </span>
           </small>
         </footer>
 
     </div>
-    <!-- <script type="text/javascript" src="/javascripts/main.js"></script> -->
+    <script>
+      // GA - read: http://mathiasbynens.be/notes/async-analytics-snippet
+      var _gaq=[['_setAccount', 'UA-37688260-1'],['_trackPageview'],['_gat._anonymizeIp'],['_trackPageLoadTime']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;g.src='//www.google-analytics.com/ga.js';s.parentNode.insertBefore(g,s)}(document,'script'));
+
+      // G+ button
+      window.___gcfg={lang:'de'};
+      (function(d,t){var e=d.createElement(t),s=d.getElementsByTagName(t)[0];e.async=1;e.src='//apis.google.com/js/plusone.js';s.parentNode.insertBefore(e,s)}(document,'script'));
+      // twitter button
+      (function(d,t){var e=d.createElement(t),s=d.getElementsByTagName(t)[0];e.async=1;e.src='//platform.twitter.com/widgets.js';s.parentNode.insertBefore(e,s)}(document,'script'));
+      // facebook button
+      (function(d,t){var e=d.createElement(t),s=d.getElementsByTagName(t)[0];e.async=1;e.src='//connect.facebook.net/de_DE/all.js#xfbml=1';s.parentNode.insertBefore(e,s)}(document,'script'));
+    </script>
   </body>
 </html>

@@ -97,6 +97,7 @@ hr {
 }
 
 header {
+  clear: both;
   position: relative;
   margin: 1em 0 2em 0;
   min-width: 772px;
@@ -228,4 +229,37 @@ footer a:hover {
 }
 #main_content section:nth-child(n+2) h1 {
   padding-top: 1em;
+}
+
+#actions {
+  text-align: right;
+  padding: .5em 0;
+}
+#actions .button {
+  float: right;
+  overflow: hidden;
+  margin-left: 3px;
+}
+#actions .button.spacer {
+  border-left: 1px solid #ccc;
+  height: 20px;
+  width: 4px;
+}
+
+#actions .button.googleplus {
+  width: 33px !important;
+}
+#actions .button.twitter {
+  width: 72px !important;
+}
+#actions .button.facebook {
+  width: 84px !important;
+  margin-top: -3px;
+}
+#actions .button.flattr {
+  width: 93px !important;
+  margin-top: 1px;
+}
+#actions .button.paypal {
+  width: 82px !important;
 }
