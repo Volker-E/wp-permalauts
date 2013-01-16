@@ -3,6 +3,8 @@ layout: default
 title: WP Permalauts
 tagline: Deutsche Umlaute in Permalinks von WordPress
 navid: home
+description: WP Permalauts ist ein WordPress-Plugin für deutsche Umlaute in Permalinks
+keywords: WordPress plugin permalauts umlaute permalinks deutsch wp-permalauts umwandeln konvertieren
 ---
 
 # Beschreibung
