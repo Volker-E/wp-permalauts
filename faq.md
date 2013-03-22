@@ -6,4 +6,6 @@ navid: faq
 
 # Häufig gestellte Fragen (FAQ)
 
-Bisher keine.
+## Werden Custom Post Types unterstützt?
+
+Ja, genau wie bei Beiträgen und Seiten werden auch die Permalinks von Custom Post Types angepasst.
